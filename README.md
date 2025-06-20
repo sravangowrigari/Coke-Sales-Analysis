@@ -23,16 +23,15 @@ The data contains retail transactions including:
 
 ---
 
-## 📁 File Structure
+## 📁 Project Structure
 
-| Sheet Name           | Description                                                              |
-| -------------------- | ------------------------------------------------------------------------ |
-| `Data`               | Raw dataset of beverage sales and operating margins                      |
-| `Beginner`           | Initial cleaning steps, column re-structuring, and formatting            |
-| `Intermediate`       | Grouping and summarizing sales by brand and time                         |
-| `Advanced`           | Region-wise breakdown, comparative insights, and high-level aggregations |
-| `Addtional Analysis` | Key insights like revenue trends and brand performance across months     |
-
+| Sheet Name                | Description                                                                 |
+|---------------------------|-----------------------------------------------------------------------------|
+| `Data`                    | Raw data after cleaning and header fixing                                   |
+| `Beginner`                | Data preprocessing and basis analysis         |
+| `Intermediate`            | Monthly brand sales trends using Pivot Tables                               |
+| `Advanced`                | Region-wise analysis of unit sales                                          |
+| `Actions and Followup Analysis` | Strategic recommendations and future data-driven opportunities        |
 ---
 
 ## 🧪 Key Analyses Performed
@@ -42,17 +41,17 @@ The data contains retail transactions including:
 * Standardized column headers
 * Cleaned dates and null values
 * Formatted currency fields
+* Basic analysis done of total sales across months, regions, and brands.
 
 ### 📈 Intermediate Level
 
 * Monthly beverage brand sales aggregation
-* Total revenue breakdowns by brand and state
+* Total revenue breakdowns by brand and region
 
 ### 📊 Advanced Level
 
 * Regional and brand performance comparisons
 * Visualization-ready pivot tables
-* Units sold vs. operating margin heatmaps
 
 ### 🧠 Additional Analysis
 
@@ -65,7 +64,7 @@ The data contains retail transactions including:
 ## 💡 Actionable Insights
 
 * **Coca-Cola Classic** is the top-selling product across most regions.
-* The **South and Northeast** regions contribute the highest profits.
+* The **West and Northeast** regions contribute the highest profits.
 * **Seasonal spikes** were observed in Q2, suggesting targeted campaigns during summer.
 * **Low-performing brands** can be strategically reallocated or bundled with bestsellers.
 
@@ -81,7 +80,7 @@ The data contains retail transactions including:
 
 ## 🚀 Tools Used
 
-* **Microsoft Excel** (Power Query, Pivot Tables, Formulas)
+* **Microsoft Excel** (Pivot Tables, Formulas)
 * Visualization: Charts within Excel
 * Data transformation: Manual cleaning & aggregation logic
 
@@ -94,7 +93,7 @@ The data contains retail transactions including:
 
    * Start with `Data`
    * Apply logic in `Beginner`, `Intermediate`, `Advanced`
-   * Review final insights in `Addtional Analysis`
+   * Review final insights in `Actions and Followup Analysis`
 3. Use filters/pivots to explore further
 
 ---
